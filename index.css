@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: slategrey;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: black;
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.user-input{
+    background-color: aqua;
+    height: 10rem;
+    width: 10rem;
+}
+
+.user-input img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.cpu-input img{
+    height: 10rem;
+    width: 10rem;
+}
+
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.cpu-input{
+    background-color:yellow;
+    height: 10rem;
+    width: 10rem;
+}
+
+.option-holder{
+    background-color: tomato;
+    height: 15rem;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.stone-holder{
+    background-color:yellow;
+    height: 5rem;
+    width: 5rem;
+}
+
+.paper-holder{
+    background-color: aqua;
+    height: 5rem;
+    width: 5rem;
+}
+
+.scissor-holder{
+    background-color :slateblue;
+    height: 5rem;
+    width: 5rem;
+}
